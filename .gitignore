@@ -1,0 +1,23 @@
+# 操作系统杂项
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+
+# 临时文件与日志
+*.log
+*.tmp
+~$*
+.cache/
+
+# 敏感信息
+.env
+.env.*
+!.env.example
+
+# 本地临时克隆区（未纳入 submodule 的试clone，不入库）
+_local/
